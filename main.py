@@ -1,12 +1,10 @@
-"""
+def find_max_even_number(numbers: list[int]) -> int:
+    """
 Ищет максимальное чётное значение в списке
 положительных целых значений, переданном
 в параметр функции.
 Если чётных чисел нет, возвращает -1.
 """
-
-
-def find_max_even_number(numbers: list[int]) -> int:
 
     current_max: int | None = None
 
